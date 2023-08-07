@@ -1,0 +1,85 @@
+/* 공통 스타일 */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #E6E6E6;
+}
+
+a {
+    text-decoration-line: none;
+    color: white;
+}
+
+
+/* 로고 스타일 */
+.logo {
+    display: inline-block;
+    background-color: #4a88e5;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* 문구 스타일 */
+.tagline {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    margin: 50px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+.post {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+table {
+    font-size: 25px;
+    width: 100%;
+    margin-top: -200px;
+}
+
+th {
+    padding-bottom: 30px;
+}
+
+.back {
+    display: flex;
+    justify-content: right;
+}
+
+.back a {
+    background-color: rgb(111, 111, 111);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 25px;
+}

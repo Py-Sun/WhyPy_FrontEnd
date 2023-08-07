@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #E6E6E6;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.main {
+    height: 300px;
+    width: 100%;
+}
+
+.id-box {
+    display: flex;
+    color: #9c9c9c;
+}
+
+.post-id-input {
+    width: 35%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid#9c9c9c;
+    margin: 3%;
+}
+
+.content-box {
+    display: flex;
+    color: #9c9c9c;
+    height: 100%;
+}
+
+
+.post-content-input {
+    width: 90%;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid#9c9c9c;
+    margin-left: 3%;
+}
+
+.button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.send-button {
+    background-color: #9b47a5;
+    border: #9b47a5;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 8%;
+}
+
+.cancellation-button {
+    background-color: #b1b1b1;
+    border: #b1b1b1;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 14px;
+    border-radius: 8%;
+}

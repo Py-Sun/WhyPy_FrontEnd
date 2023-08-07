@@ -1,0 +1,243 @@
+/* 공통 스타일 */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #E6E6E6;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+
+/* 로고 스타일 */
+.logo {
+    display: inline-block;
+    background-color: #4a88e5;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* 문구 스타일 */
+.tagline {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* 버튼 스타일 */
+.button {
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button.plus-one {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #8f53b2;
+    font-size: 30px;
+    font-size: 35px;
+}
+
+
+.button.my {
+    background-color: #757575;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.button.list {
+    background-color: #757575;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* 왼쪽 영역 스타일 */
+.left-area {
+    position: relative;
+    float: left;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* 오른쪽 영역 스타일 */
+.right-area {
+    float: right;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: right;
+
+}
+
+.header {
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 100%;
+}
+
+.up {
+    display: flex;
+    height: 50%;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 70px;
+}
+
+.pro {
+    height: 100%;
+    width: 20%;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 90%;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    font-size: xx-large;
+}
+
+.nickname {
+    font-size: x-large;
+    margin-top: 10px;
+    margin-left: -30px;
+    display: flex;
+    justify-content: center;
+}
+
+.setting {
+    height: 70%;
+    width: 70%;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+}
+
+.setting a:hover {
+    background-color: #e6e6e6;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.good {
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.question,
+.profile {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.down {
+    display: flex;
+    height: 50%;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 70px;
+}
+
+.fri {
+    height: 100%;
+    width: 30%;
+    margin-right: 50px;
+}
+
+.friend {
+    font-size: x-large;
+}
+
+.list1 {
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    height: 90%;
+    margin-top: 10px;
+}
+
+.lec {
+    height: 100%;
+    width: 30%;
+    margin-right: 50px;
+}
+
+.lecture {
+    font-size: x-large;
+}
+
+.lect,
+.po {
+    display: flex;
+    justify-content: space-between;
+}
+
+.all1 a,
+.all2 a {
+    background-color: rgb(234, 74, 45);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.all1 {
+    margin-left: 70px;
+}
+
+
+.list2 {
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    height: 90%;
+    margin-top: 10px;
+}
+
+.pos {
+    height: 100%;
+    width: 35%;
+    margin-right: 50px;
+}
+
+.post {
+    font-size: x-large;
+}
+
+.list3 {
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    height: 90%;
+    margin-top: 10px;
+}
