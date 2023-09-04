@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>쪽지쓰기</title>
+    <link rel="stylesheet" href="../static/css/write_note.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="id-box">
+            <input type="text" onclick="opensetting()" id="post-title" class="post-id-input"
+                placeholder="받는 사람 닉네임 또는 아이디">
+        </div>
+        <nav id="id_nav" style="display: none;">
+            <ul>
+                <li><button class="id">
+                        <div class="name1">닉네임1</div>
+                        <div class="id1">아이디</div>
+                    </button></li>
+                <li><button class="id">
+                        <div class="name1">닉네임2</div>
+                        <div class="id1">아이디</div>
+                    </button></li>
+                <li><button class="id">
+                        <div class="name1">닉네임3</div>
+                        <div class="id1">아이디</div>
+                    </button></li>
+            </ul>
+        </nav>
+        <div class="content-box">
+            <textarea type="text" id="post-title" class="post-content-input" placeholder="이곳에 내용을 입력하세요"></textarea>
+        </div>
+        <div class="button">
+            <button class="send-button" type="button">보내기</button>
+            <button class="cancellation-button" type="button">취소</button>
+        </div>
+    </div>
+</body>
+<script>
+    function opensetting() {
+        if (document.getElementById('id_nav').style.display === 'block') {
+            document.getElementById('id_nav').style.display = 'none';
+        } else {
+            document.getElementById('id_nav').style.display = 'block';
+        }
+    }
+</script>
+
+</html>

@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #E6E6E6;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.main {
+    height: 300px;
+    width: 100%;
+}
+
+.id-box {
+    display: flex;
+    color: #9c9c9c;
+}
+
+
+.post-id-input {
+    width: 35%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid#9c9c9c;
+    margin: 3%;
+}
+
+.main #id_nav {
+    position: absolute;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #E6E6E6;
+    border: 0.0625rem solid #E6E6E6;
+    padding: 5px;
+    overflow: auto;
+    list-style: none;
+    border: 1px solid #9c9c9c;
+    margin-top: -3%;
+    margin-left: 3%;
+}
+
+#id_nav li {
+    background-color: #E6E6E6;
+
+}
+
+#id_nav button {
+    border: none;
+    cursor: pointer;
+}
+
+.name1 {
+    font-weight: 700;
+}
+
+.id1,
+.name1 {
+    background-color: #E6E6E6;
+    display: flex;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.content-box {
+    display: flex;
+    color: #9c9c9c;
+    height: 100%;
+}
+
+
+.post-content-input {
+    width: 90%;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid#9c9c9c;
+    margin-left: 3%;
+}
+
+.button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.send-button {
+    background-color: #9b47a5;
+    border: #9b47a5;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 8%;
+}
+
+.cancellation-button {
+    background-color: #b1b1b1;
+    border: #b1b1b1;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 14px;
+    border-radius: 8%;
+}
