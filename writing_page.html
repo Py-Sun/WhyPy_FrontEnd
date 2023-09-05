@@ -23,7 +23,25 @@
     <div class="main">
         <div class="text">게시물 작성하기</div>
         <div class="b">
-            <div class="select">게시판을 선택해주세요</div>
+            <div class="all">
+                <div class="select" onclick="opensetting()">게시판을 선택해주세요</div>
+                <nav id="se_nav" style="display: none;">
+                    <ul>
+                        <li><button class="id">
+                                <div class="name1">언어별 1</div>
+                            </button></li>
+                        <li><button class="id">
+                                <div class="name1">언어별 2</div>
+                            </button></li>
+                        <li><button class="id">
+                                <div class="name1">직종별 1</div>
+                            </button></li>
+                        <li><button class="id">
+                                <div class="name1">직종별 2</div>
+                            </button></li>
+                    </ul>
+                </nav>
+            </div>
             <div class="anonym">
                 <input type="checkbox" class="checkbox">&nbsp;&nbsp;익명
             </div>
@@ -32,20 +50,39 @@
             <input type="text" id="post-title" class="post-title-input" placeholder="제목을 입력해주세요">
         </div>
         <div class="setting">
-            <div class="picture">사진</div>
-            <div class="video">동영상</div>
-            <div class="code">소스코드</div>
+            <button class="picture">사진</button>
+            <button class="video">동영상</button>
+            <button class="code">소스코드</button>
             <div class="type">서체</div>
             <div class="num">15</div>
-            <div class="set"><b>B</b><i>I</i><u>U</u> <del>T</del></div>
-            <div class="sort">정렬</div>
-            <div class="line">줄간격</div>
+            <div class="set">
+                <button class="set1"><b>B</b></button>
+                <button class="set1"><i>I</i></button>
+                <button class="set1"><u>U</u> </button>
+                <button class="set1"><del>T</del></button>
+            </div>
+            <button class="sort">정렬</button>
+            <button class="line">줄간격</button>
         </div>
-        <div class="contents"></div>
-        <div class="write-button">
-            <a href="#">등록하기</a>
+        <div class="content-box">
+            <textarea type="text" id="post-title" class="post-content-input" placeholder="내용을 입력해주세요"></textarea>
+        </div>
+        <div class="button">
+            <button class="write-button" type="button" onclick="doAction()">등록하기</button>
         </div>
     </div>
+    <script>
+        function doAction() {
+            alert("등록되었습니다!");
+        }
+        function opensetting() {
+            if (document.getElementById('se_nav').style.display === 'block') {
+                document.getElementById('se_nav').style.display = 'none';
+            } else {
+                document.getElementById('se_nav').style.display = 'block';
+            }
+        }
+    </script>
 </body>
 
 </html>
