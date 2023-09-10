@@ -61,25 +61,103 @@
                 </table>
             </div>
         </div>
-        <div class="box">
-            <div class="id">아이디</div>
-            <br>
-            <br>
-            <div class="pro">해결한 문제</div>
-            <div class="num">11개</div>
-        </div>
-        <div class="fil">
-            <h3>필터</h3>
-            <hr>
-            <div class="type">문제 종류</div>
-            <div class="status">상태</div>
-            <div class="level">레벨</div>
+        <div class="bigbox">
+            <div class="box">
+                <div class="id">아이디</div>
+                <br>
+                <br>
+                <div class="pro">해결한 문제</div>
+                <div class="num">11개</div>
+            </div>
+            <div class="fil">
+                <h3>필터</h3>
+                <hr>
+                <div class="select">
+                    <button onclick="opensetting1()" class="type">문제종류
+                        <img class="togglebutton" src="/toggle-button1.svg">
+                    </button>
+                    <nav id="check-list" style="display: none;">
+                        <ul>
+                            <li><label class="check">
+                                    <input name="type1" type="checkbox">
+                                    연습문제
+                                </label></li>
+                            <li><label class="check">
+                                    <input name="type1" type="checkbox">
+                                    직무문제
+                                </label></li>
+                            <li><label class="check">
+                                    <input name="type1" type="checkbox">
+                                    언어문제
+                                </label></li>
+                        </ul>
+                    </nav>
+                    <button onclick="opensetting2()" class="status">상태
+                        <img class="togglebutton" src="/toggle-button1.svg">
+                    </button>
+                    <nav id="status-list" style="display: none;">
+                        <ul>
+                            <li><label class="status">
+                                    <input name="status1" type="checkbox">
+                                    푼문제
+                                </label></li>
+                            <li><label class="status">
+                                    <input name="status1" type="checkbox">
+                                    안푼문제
+                                </label></li>
+                        </ul>
+                    </nav>
+                    <button onclick="opensetting3()" class="level">레벨
+                        <img class="togglebutton" src="/toggle-button1.svg">
+                    </button>
+                    <nav id="level-list" style="display: none;">
+                        <ul>
+                            <li><label class="level">
+                                    <input name="level1" type="checkbox">
+                                    LV.1
+                                </label></li>
+                            <li><label class="level">
+                                    <input name="level1" type="checkbox">
+                                    LV.2
+                                </label></li>
+                            <li><label class="level">
+                                    <input name="level1" type="checkbox">
+                                    LV.3
+                                </label></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
     </div>
     <div class="search-container">
         <input type="text" id="search-input">
         <button type="submit" id="search-button">?</button>
     </div>
+
 </body>
+<script>
+    function opensetting1() {
+        if (document.getElementById('check-list').style.display === 'block') {
+            document.getElementById('check-list').style.display = 'none';
+        } else {
+            document.getElementById('check-list').style.display = 'block';
+        }
+    }
+    function opensetting2() {
+        if (document.getElementById('status-list').style.display === 'block') {
+            document.getElementById('status-list').style.display = 'none';
+        } else {
+            document.getElementById('status-list').style.display = 'block';
+        }
+    }
+    function opensetting3() {
+        if (document.getElementById('level-list').style.display === 'block') {
+            document.getElementById('level-list').style.display = 'none';
+        } else {
+            document.getElementById('level-list').style.display = 'block';
+        }
+    }
+</script>
 
 </html>
