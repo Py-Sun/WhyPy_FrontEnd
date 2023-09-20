@@ -1,7 +1,13 @@
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+}
+
 * {
     margin: 0px;
     padding: 0px;
     background-color: #E6E6E6;
+    font-family: 'NanumSquareRound';
 }
 
 a {
@@ -11,6 +17,7 @@ a {
 .main {
     height: 300px;
     width: 100%;
+    margin-top: -1%;
 }
 
 .id-box {
@@ -25,6 +32,13 @@ a {
     font-size: 18px;
     border: 1px solid#9c9c9c;
     margin: 3%;
+}
+
+.title {
+    margin-left: 3%;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-top: 50px;
 }
 
 .main #id_nav {
@@ -44,7 +58,6 @@ a {
 
 #id_nav li {
     background-color: #E6E6E6;
-
 }
 
 #id_nav button {
