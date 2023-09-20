@@ -1,8 +1,14 @@
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+}
+
 /* 공통 스타일 */
 body {
     margin: 0px;
     padding: 0px;
     background-color: #E6E6E6;
+    font-family: 'NanumSquareRound';
 }
 
 a {
@@ -10,20 +16,25 @@ a {
     color: white;
 }
 
+.le {
+    width: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
 
 /* 로고 스타일 */
 .logo {
     display: inline-block;
-    background-color: #4a88e5;
-    color: #fff;
-    width: 60px;
-    height: 60px;
-    font-size: 20px;
-    text-align: center;
-    line-height: 60px;
-    border-radius: 50%;
     padding: 10px;
-    margin: 10px;
+}
+
+.logoimg {
+    width: 80px;
+    height: 80px;
 }
 
 /* 문구 스타일 */
